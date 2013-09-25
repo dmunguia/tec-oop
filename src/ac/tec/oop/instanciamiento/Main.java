@@ -8,5 +8,6 @@ public class Main {
         Padre padre = new Padre();
         Hijo hijo = new Hijo();
         System.out.println("hijo = " + hijo);
+        hijo.saludar();
     }
 }

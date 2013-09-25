@@ -8,6 +8,7 @@ public class Hijo extends Padre {
     private double doble;
     private int entero = 128;
     private long[] arreglo = new long[5];
+    private short enteroChico = super.enteroChico;
 
     {
         enteroChico = 125;
@@ -18,6 +19,7 @@ public class Hijo extends Padre {
     }
 
     public Hijo() {
+        this.paquete = 5;
         System.out.println("Ejecutando el constructor de Hijo");
         this.doble = 1.0 / 3.0;
     }
