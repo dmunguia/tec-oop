@@ -17,11 +17,7 @@ public class MainMaps {
         String edad = persona.get("edad");
         System.out.println("edad = " + edad);
 
-        Set<Map.Entry<String, String>> entries = persona.entrySet();
-        Iterator<Map.Entry<String, String>> iterador = entries.iterator();
-
-        while (iterador.hasNext()) {
-            Map.Entry<String, String> entry = iterador.next();
+        for (Map.Entry<String, String> entry : persona.entrySet()) {
             String llave = entry.getKey();
             String valor = entry.getValue();
             System.out.println("llave = " + llave + ", valor = " + valor);
