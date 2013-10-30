@@ -33,15 +33,12 @@ public class Elemento {
         Elemento elemento = (Elemento) o;
 
         if (id != elemento.id) return false;
-        if (etiqueta != null ? !etiqueta.equals(elemento.etiqueta) : elemento.etiqueta != null) return false;
 
         return true;
     }
 
     @Override
     public int hashCode() {
-        int result = id;
-        result = 31 * result + (etiqueta != null ? etiqueta.hashCode() : 0);
-        return result;
+        return id;
     }
 }

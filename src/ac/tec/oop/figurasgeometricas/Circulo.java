@@ -21,4 +21,9 @@ public class Circulo implements FiguraGeometrica {
     public double area() {
         return 3.14 * radio * radio;
     }
+
+    @Override
+    public void dibujar() {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
 }

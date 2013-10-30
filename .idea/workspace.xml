@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="849fb2f4-4254-4cd7-b5ba-910c9958748f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Dibujable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Cuadrado.java" afterPath="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Cuadrado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/FiguraGeometrica.java" afterPath="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/FiguraGeometrica.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tec-oop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380864605154" ignored="false" />
+    <file path="/Dummy.txt" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380864681469" ignored="false" />
     <file path="/Main.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380726497476" ignored="false" />
     <file path="/ElProcesamiento.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1378612944538" ignored="false" />
     <file path="/ElObjeto.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1378612922404" ignored="false" />
@@ -44,6 +47,9 @@
     <file path="/Terrestres.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380723218612" ignored="false" />
     <file path="/Automovil.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380723282805" ignored="false" />
     <file path="/Bicicleta.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380723348964" ignored="false" />
+    <file path="/Cuadrado.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380865181062" ignored="false" />
+    <file path="/Dibujable.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380866032743" ignored="false" />
+    <file path="/FiguraGeometrica.java" changelist="849fb2f4-4254-4cd7-b5ba-910c9958748f" time="1380866043872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,24 +127,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/onequals/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="32" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vehiculo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Vehiculo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Terrestre.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Terrestre.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,14 +154,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="36" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.65451664">
+            <state line="50" column="36" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1229#1239#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persona.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/colecciones/Persona.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PoligonoRegular.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/PoligonoRegular.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cuadrado.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Cuadrado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="8" selection-start="481" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dibujable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Dibujable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FiguraGeometrica.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/FiguraGeometrica.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="51" selection-start="121" selection-end="121" vertical-scroll-proportion="0.22131148">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comparable.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Comparable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,9 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ac/tec/oop/colecciones/Persona.java" />
-        <option value="$PROJECT_DIR$/src/ac/tec/oop/colecciones/MainSets.java" />
-        <option value="$PROJECT_DIR$/src/ac/tec/oop/colecciones/MainMaps.java" />
         <option value="$PROJECT_DIR$/src/ac/tec/oop/bd/ServicioBaseDatos.java" />
         <option value="$PROJECT_DIR$/src/ac/tec/oop/bd/Esquema.java" />
         <option value="$PROJECT_DIR$/src/ac/tec/oop/bd/Tabla.java" />
@@ -212,6 +251,9 @@
         <option value="$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Automovil.java" />
         <option value="$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Bicicleta.java" />
         <option value="$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Main.java" />
+        <option value="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Cuadrado.java" />
+        <option value="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Dibujable.java" />
+        <option value="$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/FiguraGeometrica.java" />
       </list>
     </option>
   </component>
@@ -359,6 +401,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="generalizacion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tec-oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tec-oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="figurasgeometricas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tec-oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tec-oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colecciones" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,12 +646,16 @@
       <created>1380864626643</created>
       <updated>1380864626643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ejemplos de generalizacion">
+      <created>1380864687791</created>
+      <updated>1380864687791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1217" height="805" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -580,7 +670,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1094953" sideWeight="0.67275494" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23695466" sideWeight="0.67275494" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -669,31 +759,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/numberguess/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quiz1B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/quiz3/ElObjeto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/quiz3/ElProcesamiento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/quiz3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/instanciamiento/Abuelo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -714,11 +779,6 @@
         <state line="10" column="32" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/colecciones/Persona.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/colecciones/Main.java">
@@ -756,11 +816,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/generalizacion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="36" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.65451664">
+        <state line="50" column="36" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1229#1239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Comparable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/colecciones/Persona.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/PoligonoRegular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Cuadrado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="481" selection-end="569" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/Dibujable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ac/tec/oop/figurasgeometricas/FiguraGeometrica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="121" selection-end="121" vertical-scroll-proportion="0.22131148">
+          <folding />
         </state>
       </provider>
     </entry>
